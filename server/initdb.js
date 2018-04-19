@@ -20,12 +20,12 @@ const createShop = (index) => {
 
   result.name = `name${index}`;
   result.fieldNumber1 = Math.floor(Math.random() * 11);;
-  result.fieldFloat1 = Math.floor(Math.random() * 10);
+  result.fieldFloat1 = Math.random() * 10;
   result.fieldString1 = createString();
   result.fieldDate1 = new Date();
   result.fieldBoolean1 = true;
   result.fieldNumber2 = Math.floor(Math.random() * 12);
-  result.fieldFloat2 = Math.floor(Math.random() * 15);
+  result.fieldFloat2 = Math.random() * 15;
   result.fieldString2 = createString();
   result.fieldDate2 = new Date();
   result.fieldBoolean2 = false;
