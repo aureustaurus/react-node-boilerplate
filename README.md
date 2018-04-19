@@ -17,7 +17,7 @@ This is a boilerplate project using the following technologies:
 npm install
 ```
 
-##Initializing DB:
+## Initializing DB
 
 To initializing some dummy data to DB - should run:
 
