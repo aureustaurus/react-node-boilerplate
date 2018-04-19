@@ -10,14 +10,15 @@ This is a boilerplate project using the following technologies:
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/) 6+
-- [MongoDB]
+- [MongoDB](https://www.mongodb.com/)
 
 
 ```shell
 npm install
 ```
 
-###Initializing DB:
+##Initializing DB:
+
 To initializing some dummy data to DB - should run:
 
 ```shell
@@ -56,5 +57,5 @@ npm run start:dev
 To start working you should open in browser page : 'http://localhost:8080/shops'
 
 Set at the page parameters ```(filters, search, sotring)``` if you need it
-Click button ```Get shops``` and look at the shops data in the table.
+Click button ```'Get shops'``` and look at the shops data in the table.
 
